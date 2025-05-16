@@ -29,8 +29,8 @@ const LoginComponent = {
   `,
   data() {
     return {
-      email: '',
-      password: ''
+      email: 'gerencia.jhonatan@gmail.com',
+      password: '123456'
     }
   },
   methods: {
@@ -103,10 +103,10 @@ const RegisterComponent = {
   `,
   data() {
     return {
-      name: '',
-      email: '',
-      password: '',
-      confirmPassword: ''
+      name: 'jhonatan',
+      email: 'gerencia.jhonatan@gmail.com',
+      password: '123456',
+      confirmPassword: '123456'
     }
   },
   methods: {

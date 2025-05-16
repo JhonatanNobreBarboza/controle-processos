@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Configuração do banco de dados
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL || 'postgresql://postgres:postgres@localhost:5432/controle_processos',
+  connectionString: process.env.DATABASE_URL || 'postgresql://neondb_owner:npg_HtOYfU2zir8L@ep-snowy-bush-a4rtwv5h.us-east-1.aws.neon.tech/neondb?sslmode=require',
 });
 
 // Rotas
